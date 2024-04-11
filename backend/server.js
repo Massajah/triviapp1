@@ -12,7 +12,7 @@ app.use(cors())
 app.use(express.json())
 config()
 
-const port = process.env.PORT || 8080
+const port = 5000
 
 app.use('/api', router)
 
